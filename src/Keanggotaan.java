@@ -18,4 +18,28 @@ public abstract class Keanggotaan {
         this.hargajasa = hargajasa;
         this.nama = nama;
     }
+    
+    public String getNama() {
+        return nama;
+    }
+
+    public String getproduk() {
+        return produk;
+    }
+
+    public String getjasa() {
+        return jasa;
+    }
+
+    public double getHargaPelayanan() {
+        return hargajasa;
+    }
+
+    public double getHargaProduk() {
+        return hargaProduk;
+    }
+
+    public void anggota() {
+        System.out.println("");
+    }
 
