@@ -42,4 +42,19 @@ public abstract class Keanggotaan {
     public void anggota() {
         System.out.println("");
     }
+    
+    public void tampilkan() {
+        System.out.println("Nama               : " + nama);
+        System.out.println("Jenis Produk       : " + produk);
+        System.out.println("Harga Produk       : Rp. " + hargaProduk);
+        System.out.println("jenis Pelayan      : " + jasa);
+        System.out.println("Harga Pelayanan    : Rp. " + hargajasa);
+    }
+
+    public double bayar() {
+        double total;
+        total = getHargaProduk() + getHargaPelayanan();
+        return total;
+    }
+}
 
